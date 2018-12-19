@@ -1,0 +1,24 @@
+ID :
+
+toutes les pages:
+	-logo : logo de Bobart
+	-titre : Image du titre Bobart
+	-login : icone de connection
+	-rs : icones des réseaux sociaux
+
+index.html:
+	
+
+proposition.html:
+	-file : pour les fichiers
+	
+
+
+
+CLASS :
+
+Toutes les pages : 
+	-res : div du footer contenant les réseaux sociaux
+
+Proposition.html:
+	-form : pour les formulaires mono-lignes et multilignes

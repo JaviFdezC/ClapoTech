@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset= "utf-8"/>
+        <title>BobArt</title>
+        <meta name= "viewport" content= "width=device-width, initial-scale=1.0"/>
+        <link rel= "stylesheet" href= "../CSS/style.css" />
+    </head>
+    <body>
+        <header>
+            <!--logo-->
+            <img id="logo" src="../images/titreLogo/logo.PNG" alt="Rond contenant le nom et le prenom" titre="Belle pomme"/>
+            <!--titre-->
+            <img id="titre" src="../images/titreLogo/titre.PNG" alt="nom de l'entreprise"/>
+            <!--icone de connection-->
+            <a href="HTML/connection.html"><img id="login" src="../images/autres/login.png" alt="image de connection"/></a>
+        </header>
+  
+        <section>
+            <form method= "post" action= "index.php">
+                <p>
+                    <label for="pseudo">Identifiant</label><br />
+                    <input type= "text" name= "pseudo" id= "pseudo" placeholder= "Ex : Raclette" size= "30" maxlength= "13"/><br />
+                    <label for="pass">Mot de passe</label><br />
+                    <input type="password" name="pass" id="pass" size= "30"/><br />
+                    <input type= "submit" value= "Valider"/>
+               </p>
+            </form>
+        </section>
+        
+        <footer>
+            <a href="nousContacter.html">Nous contacter</a>
+            <a href="mentionsLegales.html">Mentions légales</a>
+            <a href="ConditionsDutilisations.html">Conditions d'utilisations</a>
+        </footer>
+      
+        
+    </body>
+</html>
