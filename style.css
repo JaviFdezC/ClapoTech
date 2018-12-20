@@ -101,8 +101,8 @@ img {
 }
 
 #form h1{
-		margin-left: 40px;
-    color: white;
+	margin-left: 40px;
+	color: white;
 	}
 
 #form .image{
@@ -112,25 +112,25 @@ img {
 	width: 50%;
 	background-size: cover;
 	background-position: 55%;
-    margin-bottom: 40px;
-    margin-top: 80px;
+  	margin-bottom: 40px;
+	margin-top: 80px;
 }
 
 #form .frm{
 	float:right;
 	height: 470px;
-    width: 50%;
-    min-width: 250px;
-    padding: 0px;
-    background-size: 100% 100%;
-    background-color: slategrey;
-    margin-bottom: 40px;
-    margin-top: 80px;
+    	width: 50%;
+	min-width: 250px;
+	padding: 0px;
+	background-size: 100% 100%;
+	background-color: slategrey;
+	margin-bottom: 40px;
+	margin-top: 80px;
 }
 
 h2{
-    color: white;
-    text-align: center;
+    	color: white;
+    	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
@@ -142,24 +142,24 @@ h2{
 
 #form .form-control{
 	width: 80%;
-    margin: 10px 10%;
+    	margin: 10px 10%;
 	padding: 12px 20px;
 	height: auto;
-    border-radius: 5px;
-    border: 2px solid blue;
+    	border-radius: 5px;
+    	border: 2px solid blue;
 }
 
 #form .btn{
-    width: 20%;
-    margin: 10px 40%;
-    border-radius: 5px;
-    border: 2px solid blue;
+    	width: 20%;
+    	margin: 10px 40%;
+    	border-radius: 5px;
+    	border: 2px solid blue;
 }
 
 @media screen and (max-width: 700px){
 	#form .image{
 		width: 30%;
-	    background-position: 60%;
+	    	background-position: 60%;
 	}
 
 	#form .frm{
@@ -180,10 +180,10 @@ h2{
 		width: 100%;
 	}
     
-    #form .form-control{
-        width: 80%;
+    	#form .form-control{
+        	width: 80%;
 		margin: 10px 10%;
-    }
+    	}
 
 	#form h1{
 		text-align: center;
@@ -192,7 +192,6 @@ h2{
 	#form .btn{
 		width: 20%;
 		margin: 10px 40%;
-
 	}
 }
 
